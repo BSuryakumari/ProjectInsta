@@ -1,0 +1,37 @@
+.loader-container,
+.my-profile-failure-view {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.my-profile-failure-image {
+  height: 126.99996948242188px;
+  width: 259.99932861328125px;
+  margin-bottom: 16px;
+}
+.my-profile-failure-button {
+  height: 32px;
+  width: 86px;
+  border-radius: 10px;
+  padding: 8px, 24px, 8px, 24px;
+  background: #4094ef;
+  color: #ffffff;
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .my-profile-failure-image {
+    height: 273.9997253417969px;
+    width: 560.0001831054688px;
+    margin-bottom: 20px;
+  }
+  .my-profile-failure-button {
+    height: 48px;
+    width: 127px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}

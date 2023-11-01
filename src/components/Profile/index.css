@@ -1,0 +1,420 @@
+.profile-page-upto-userbio-container {
+  margin-left: 24px;
+}
+.profile-page-container-lg {
+  margin-left: 24px;
+}
+
+.profile-page-main-container {
+  min-height: 14rem;
+  min-width: 100vw;
+}
+.profile-page-main-heading-user-name {
+  height: 24px;
+  width: 100vw;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+.profile-page-main-heading {
+  height: 24px;
+  width: 100vw;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.profile-page-image-user-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.profile-page-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.profile-page-image-user-info-image {
+  height: 96px;
+  width: 96px;
+  border-radius: 50%;
+}
+.profile-page-info-image {
+  height: 96px;
+  width: 96px;
+  border-radius: 50%;
+}
+.profile-page-user-info-unordered-list-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 176px;
+  height: 96px;
+  margin: 0;
+  margin-left: 24px;
+  padding: 0;
+}
+.profile-unordered-list-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 176px;
+  height: 96px;
+  margin: 0;
+  margin-left: 24px;
+  padding: 0;
+}
+
+.profile-page-list-items {
+  width: 50px;
+}
+.profile-page-list-items-heading {
+  height: 24px;
+  width: 100%;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 0;
+  color: #262626;
+}
+.profile-page-heading {
+  height: 24px;
+  width: 100%;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 0;
+  color: #262626;
+}
+
+.profile-page-list-items-paragraph {
+  height: 16px;
+  width: 100%;
+  font-family: 'Roboto';
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #262626;
+}
+.profile-page-paragraph {
+  height: 16px;
+  width: 100%;
+  font-family: 'Roboto';
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #262626;
+}
+
+.profile-page-userId {
+  height: 24px;
+  width: 100%;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #262626;
+}
+.profile-userId {
+  height: 24px;
+  width: 100%;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #262626;
+}
+.profile-page-user-bio {
+  width: 312px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #262626;
+  margin-bottom: 24px;
+}
+.profile-user-bio {
+  width: 312px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #262626;
+  margin-bottom: 24px;
+}
+
+.profile-render-stories {
+  list-style-type: none;
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 0;
+  margin-left: 24px;
+}
+.profile-render-list-item {
+  margin-right: 12px;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  border: 2px solid #c7c7cc;
+}
+.profile-render-list-item-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+.profile-page-horizontal-line {
+  border: 0.5px solid #c6c6c8;
+  margin-bottom: 24px;
+}
+.posts-icon-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 24px;
+  margin-bottom: 12px;
+  height: 24px;
+  width: 60px;
+}
+.profile-page-posts-icon {
+  height: 14.0625px;
+  width: 14.0625px;
+}
+.posts-title-heading {
+  height: 24px;
+  width: 36px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #262626;
+}
+.profile-page-posts-unordered-list {
+  max-width: 100vw;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.profile-page-posts {
+  height: 116px;
+  width: 116px;
+  margin: 2px;
+}
+.profile-page-no-posts-yet-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 292px;
+  width: 100vw;
+  margin-top: 45px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profile-page-camera-icon-container {
+  height: 48px;
+  width: 48px;
+  border: 1.12px solid #262626;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-page-camera-icon {
+  height: 26.790693283081055px;
+  width: 29.023250579833984px;
+}
+.profile-page-no-posts-heading {
+  height: 24px;
+  width: 102px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #262626;
+}
+.profile-page-upto-userbio-container-lg {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .profile-page-main-container {
+    min-height: 100vh;
+  }
+  .profile-page-upto-userbio-container {
+    display: none;
+  }
+  .profile-page-upto-userbio-container-lg {
+    display: inline;
+  }
+  .profile-page-image-user-info-image {
+    height: 180px;
+    width: 180px;
+  }
+  .profile-page-image-user-info-container {
+    margin-left: 12.5rem;
+  }
+  .profile-page-image-user-info-image {
+    margin-top: 16px;
+  }
+  .name-user-info-container {
+    margin-left: 64px;
+    width: 700px;
+    height: 180px;
+  }
+  .profile-page-main-heading-user-name {
+    height: 32px;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .profile-page-user-info-unordered-list-container {
+    width: 320px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -15px;
+    margin-bottom: -20px;
+    padding: 0;
+  }
+  .profile-page-list-items {
+    height: 26px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+  }
+  .marg {
+    margin-left: -50px;
+  }
+  .profile-page-list-items-heading {
+    height: 24px;
+    width: auto;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    margin-right: 5px;
+    padding: 0;
+  }
+  .profile-page-list-items-paragraph {
+    height: 24px;
+    width: auto;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .profile-page-userId {
+    margin: 0;
+    height: 24px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #262626;
+  }
+  .profile-page-user-bio {
+    margin: 0;
+    margin-top: 4px;
+    height: 48px;
+    width: 675px;
+  }
+  .profile-render-list-item {
+    height: 86px;
+    width: 86px;
+  }
+  .profile-render-list-item-image {
+    height: 100%;
+    width: 100%;
+  }
+  .profile-render-stories {
+    margin-left: 12.5rem;
+  }
+  .profile-page-horizontal-line {
+    border: 0.5px solid #c6c6c8;
+  }
+  .posts-icon-heading-container {
+    height: 32px;
+    width: 98px;
+    align-items: center;
+    margin-left: 12.5rem;
+    justify-content: space-evenly;
+  }
+  .profile-page-posts-icon {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .posts-title-heading {
+    height: 32px;
+    width: 62px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .profile-page-posts-unordered-list {
+    max-width: 1040px;
+    margin-left: 12.5rem;
+    justify-content: flex-start;
+  }
+  .profile-page-posts {
+    height: 330px;
+    width: 330px;
+    margin: 7px;
+  }
+}

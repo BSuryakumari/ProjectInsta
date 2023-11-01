@@ -1,0 +1,139 @@
+.login-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.login-form-container {
+  min-height: 216px;
+  min-width: 312px;
+  max-width: 80%;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo-img-large {
+  display: none;
+}
+.site-logo-name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.website-logo {
+  width: 70px;
+  margin-top: 10px;
+}
+.website-name {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 305px;
+  align-self: center;
+}
+.label-text {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.user-input {
+  height: 40px;
+  width: 305px;
+  left: 0px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 2px;
+  background-color: #eeeeee;
+  font-family: 'Roboto';
+  padding-left: 10px;
+  font-size: 14px;
+  color: #262626;
+  outline: none;
+}
+.error-msg {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ef4444;
+}
+.submit-button {
+  height: 40px;
+  width: 312px;
+  border: none;
+  border-radius: 8px;
+  background: #4094ef;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-img-large {
+    display: block;
+    width: 50%;
+  }
+  .login-form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    min-width: 95%;
+    padding: 10px;
+  }
+  .login-form {
+    height: 458px;
+    width: 456px;
+    margin-left: 82px;
+  }
+  .input-container {
+    height: 64px;
+    width: 360px;
+  }
+  .label {
+    height: 16px;
+    width: 65px;
+  }
+  .user-input {
+    height: 40px;
+    width: 360px;
+    border-radius: 2px;
+  }
+  .error-msg {
+    color: #ef4444;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .submit-button {
+    height: 40px;
+    width: 360px;
+    border-radius: 8px;
+    align-self: center;
+  }
+}

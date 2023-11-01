@@ -1,0 +1,159 @@
+.user-posts-result-container {
+  list-style-type: none;
+  margin-left: -11%;
+}
+
+.post-search-results-loading-view,
+.post-search-failure-view,
+.post-search-results-initial-view {
+  min-height: 75.3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.initial-view-icon {
+  color: #dbdbdb;
+  height: 36px;
+  width: 54px;
+}
+.initial-view-heading {
+  color: #989898;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.009999999776482582px;
+  text-align: center;
+  height: 64px;
+  width: 284px;
+}
+.search-results-not-found-view {
+  min-height: 75.3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.search-results-not-found-image {
+  height: 210px;
+  width: 258.0009460449219px;
+}
+.search-results-not-found-heading {
+  height: 32px;
+  width: 160px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #262626;
+  margin-bottom: 0;
+}
+.search-results-not-found-paragraph {
+  height: 24px;
+  width: 263px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #989898;
+}
+.post-search-results-failure-image {
+  height: 24.000003814697266px;
+  width: 24.000003814697266px;
+}
+.post-search-results-failure-paragraph {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 24px;
+  width: 286px;
+  color: #262626;
+}
+.post-search-results-failure-button {
+  height: 32px;
+  width: 102px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  background-color: #4094ef;
+}
+.searched-posts-title {
+  display: none;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .post-search-results-loading-view,
+  .post-search-failure-view,
+  .post-search-results-initial-view {
+    min-height: 93.7vh;
+  }
+  .search-results-not-found-view {
+    min-height: 93.7vh;
+  }
+  .search-results-not-found-image {
+    height: 409px;
+    width: 500.0003967285156px;
+  }
+  .search-results-not-found-heading {
+    height: 48px;
+    width: 256px;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .search-results-not-found-paragraph {
+    height: 32px;
+    width: 329px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .post-search-results-failure-image {
+    height: 48px;
+    width: 48px;
+  }
+  .post-search-results-failure-paragraph {
+    height: 24px;
+    width: 286px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #262626;
+  }
+  .post-search-results-failure-button {
+    height: 32px;
+    width: 102px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    background-color: #4094ef;
+  }
+  .user-posts-result-container {
+    height: 866px;
+    width: 976px;
+    margin-left: -5rem;
+  }
+  .searched-posts-title {
+    height: 32px;
+    width: 161px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 200px;
+    display: block;
+  }
+}

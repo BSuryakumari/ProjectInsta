@@ -1,0 +1,138 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.userPost-item-li-container {
+  min-width: 100%;
+}
+.userPost-name-profile-container {
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 10px;
+}
+.userPost-item-profile {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom right, #f32b60, #c60188, #ff8f1f);
+  border-radius: 50%;
+  margin-right: 8px;
+  margin-bottom: 12px;
+  margin-left: 24px;
+}
+
+.userPost-item-profile-pic {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+
+.userPost-item-user-name {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  height: 28px;
+}
+.userPost-item-post-image {
+  height: 100%;
+  width: 100%;
+}
+.like-comment-share-container {
+  margin-left: 18px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+.userPost-interaction-button {
+  height: 24px;
+  width: 24px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.userPost-item-likes-count {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.07000000029802322px;
+  text-align: left;
+  margin-left: 22px;
+  height: 16px;
+  width: 68px;
+}
+.userPost-item-caption {
+  margin-left: 22px;
+  min-height: 12px;
+  width: 312px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+.userPost-item-createdAt {
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.05000000074505806px;
+  text-align: left;
+  margin-left: 22px;
+  color: #989898;
+}
+.userPost-item-comments-li-items {
+  list-style-type: none;
+  margin-left: -5.5%;
+}
+.userPost-item-user-comment {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+
+  text-align: left;
+}
+.userPost-item-comment-userName {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: left;
+  color: #262626;
+  margin-right: 4px;
+  font-family: 'SF Pro Text';
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .userPost-item-li-container {
+    min-width: 80vw;
+    max-width: 85vw;
+    /* height: 866px;
+    width: 976px; */
+    margin-left: 232px;
+  }
+  .userPost-item-post-image {
+    width: 1040px;
+  }
+  .userPost-item-likes-count {
+    width: 70px;
+    line-height: 18px;
+    margin-bottom: 0;
+  }
+  .userPost-item-user-comment {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 4px;
+    margin-left: 3.8%;
+  }
+}
